@@ -13,7 +13,7 @@ public class LocalDateConverter implements Converter<String, LocalDate> {
 	 * Override the convert method
 	 * 
 	 * @param date
-	 * @return
+	 * @return LocalDate in BASIC_ISO_DATE
 	 */
 	@Override
 	public LocalDate convert(String date) {
