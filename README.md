@@ -31,7 +31,7 @@ $ tree
 14 directories, 6 files
 ```
 ### Calss LocalDateConverter
-It is a very simple converter
+It is a very simple [converter](./src/main/java/com/example/data/converters/LocalDateConverter.java)
 ```Java
 @Component
 public class LocalDateConverter implements Converter<String, LocalDate> {
@@ -56,4 +56,4 @@ public class LocalDateConverter implements Converter<String, LocalDate> {
 
 The converter converted the string "20200725" to LocalDate "2020-07-25"
 
-Class SpringCustomTypeConverterApplicationTests is test class.
+Class [SpringCustomTypeConverterApplicationTests](./src/test/java/com/example/data/SpringCustomTypeConverterApplicationTests.java) is test class.
